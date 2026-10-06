@@ -1,0 +1,16 @@
+{
+  "name": "event-ticketing-system",
+  "version": "1.0.0",
+  "description": "Campus Event Ticketing System with QR Check-In",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.3",
+    "resend": "^3.2.0"
+  }
+}
